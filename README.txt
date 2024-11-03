@@ -7,9 +7,6 @@ pandas library
 mysql-connector-python library
 Install necessary Python packages using:
 
-bash
-Copy code
-pip install pandas mysql-connector-python
 Database Configuration
 In the script, update the db_config dictionary with your MySQL database connection details:
 
@@ -32,10 +29,6 @@ Save your Excel file with three sheets: Orders, Returns, and People.
 Each sheet should contain data with the columns specified for each table in the script.
 Run the Script:
 
-Execute the script in a terminal:
-bash
-Copy code
-python script_name.py
 The script will check for the Excel file, create the tables (if they don’t already exist), and upload the data from each sheet to the corresponding table in the database.
 Script Details:
 
